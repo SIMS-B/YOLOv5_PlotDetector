@@ -1,0 +1,9 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/satellite_Houses_SPROJ  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/train  # val images (relative to 'path')
+test:  # test images (optional)
+
+# Classes
+nc: 5 # number of classes
+names: [ 'empty_front_left_corner', 'bottom_road', 'bottom_left_corner', 'front_road', 'empty_front_road' ]  # class names
